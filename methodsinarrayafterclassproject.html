@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Methods in Array
+    </title>
+</head>
+
+<body>
+    <h2>Javascript Arrays methods</h2>
+    <h2>join() and pop()</h2>
+    <p>>join() methods joins array elements into a string and the pop() method remones the last element from an array.
+    </p>
+    <p id="myjoin">
+    </p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+    <script>
+        var colours = ["Blue", "Yellow", "Green","Pink"];
+        document.getElementById("myjoin").innerHTML = colours.join("*")
+        document.getElementById("myfirstpop").innerHTML = colours;
+        colours.pop();
+        document.getElementById("mysecondpop").innerHTML = colours;
+
+    </script>
+
+</body>
+
+</html
